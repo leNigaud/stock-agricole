@@ -69,7 +69,7 @@ const Entrees = () => {
 
     //récuperer les données
     useEffect(() => {
-        axios.get(`http://localhost:8000/api/entree`)
+        axios.get(`https://laravel-deploy-test-three.vercel.app/api/api/entree`)
             .then(res => {
                 setData(res.data)
                 setProduits(res.data.produits)
@@ -226,7 +226,7 @@ const Entrees = () => {
         pc.push({"user": user.name})
         
         // setProduitConfirm(pc)
-        axios.post(`http://localhost:8000/api/entree`,pc , {
+        axios.post(`https://laravel-deploy-test-three.vercel.app/api/api/entree`,pc , {
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -322,7 +322,7 @@ const Entrees = () => {
                             Click here
                         </button> */}
                         <div className='d-flex flex-row justify-content-start'>
-                            <div className='d-flex flex-column p-3' style = {{...scrollcarte,border:'1px solid black',marginRight:'35px',width:'650px'}}>
+                            <div className='d-flex flex-column p-3' style = {{...scrollcarte,border:'0.5px solid black',marginRight:'35px',width:'650px'}}>
                                 {produits.map((produit, i) => 
                                     <Carteentree 
                                         key={produit.idPro} 
@@ -344,7 +344,7 @@ const Entrees = () => {
                             </div>
 
 
-                            <div className='d-flex flex-column p-4' style={{...scrollcarteentree,border:'1px solid black'}}>
+                            <div className='d-flex flex-column p-4' style={{...scrollcarteentree,border:'0.5px solid black'}}>
                                 <div style={{fontWeight:'bold',textAlign:'center'}} className='mb-3'>Les produits à entrer</div>
                                 <div className='d-flex flex-row justify-content-between'>
                                     <div style={{marginRight:'100px'}}>Provenance</div>

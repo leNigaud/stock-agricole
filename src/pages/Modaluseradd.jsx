@@ -111,7 +111,7 @@ function Modaluseradd({hideAddUser,triggerUpdate}) {
             formData.append('privilege', data.privilege);
             formData.append('password', data.password);
         
-            axios.post(`http://localhost:8000/api/utilisateurs`, formData, {
+            axios.post(`https://laravel-deploy-test-three.vercel.app/api/api/utilisateurs`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },

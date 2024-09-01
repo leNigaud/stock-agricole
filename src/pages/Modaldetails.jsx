@@ -115,7 +115,7 @@ function Modaldetails( { categories, conteneurs, provenances, dProps, setShowDet
 
                 <div className="d-flex flex-row justify-content-around mb-4 align-items-center">
                     <div>
-                        <img src={"http://localhost:8000/api/produits/images/"+produit.photo} alt={produit.libelle} style={{height:'210px',width:'210px'}}/>
+                        <img src={"https://laravel-deploy-test-three.vercel.app/api/produits/images/"+produit.photo} alt={produit.libelle} style={{height:'210px',width:'210px'}}/>
                     </div>
                     
                     <div className="d-flex flex-column justify-content-around">

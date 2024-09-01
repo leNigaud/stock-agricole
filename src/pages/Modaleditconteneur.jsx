@@ -45,7 +45,7 @@ function Modaleditconteneur( {triggerUpdate, conteneur,conteneurs, typeConteneur
     const handleOnSubmit = async (e) => {
         console.log(data)
         e.preventDefault()
-        axios.put(`http://localhost:8000/api/conteneurs/${conteneur.idCont}`, data , {
+        axios.put(`https://laravel-deploy-test-three.vercel.app/api/api/conteneurs/${conteneur.idCont}`, data , {
             headers: {
                 'Content-Type': 'application/json',
             },

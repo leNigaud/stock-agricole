@@ -57,7 +57,7 @@ const Modification = () => {
 
     //récuperer les données
     useEffect(() => {
-        axios.get(`http://localhost:8000/api/all`)
+        axios.get(`https://laravel-deploy-test-three.vercel.app/api/api/all`)
             .then(res => {
                 setMydata(res.data)
                 setData(prevdata => ({...prevdata, conteneur: {...prevdata.conteneur, type: res.data.typeConteneurs[0].nom}}))
@@ -134,7 +134,7 @@ const Modification = () => {
     const handleConfirmSubmitConteneur = () => {
       setConfirmConteneur(false)
       console.log(data.conteneur);
-      axios.post(`http://localhost:8000/api/conteneurs`, data.conteneur , {
+      axios.post(`https://laravel-deploy-test-three.vercel.app/api/api/conteneurs`, data.conteneur , {
         headers: {
             'Content-Type': 'application/json',
         },
@@ -153,7 +153,7 @@ const Modification = () => {
     const handleConfirmSubmitTypeConteneur = () => {
       setConfirmTypeConteneur(false)
 
-      axios.post(`http://localhost:8000/api/typeConteneurs`,{nom:data.typeConteneur} , {
+      axios.post(`https://laravel-deploy-test-three.vercel.app/api/api/typeConteneurs`,{nom:data.typeConteneur} , {
         headers: {
             'Content-Type': 'application/json',
         },
@@ -171,7 +171,7 @@ const Modification = () => {
     
     const handleConfirmSubmitCategorie = () => {
       setConfirmCategorie(false)
-      axios.post(`http://localhost:8000/api/categories`,{nom:data.categorie}  , {
+      axios.post(`https://laravel-deploy-test-three.vercel.app/api/api/categories`,{nom:data.categorie}  , {
         headers: {
             'Content-Type': 'application/json',
         },
@@ -189,7 +189,7 @@ const Modification = () => {
 
     const handleConfirmSubmitDestination = () => {
       setConfirmDestination(false)
-      axios.post(`http://localhost:8000/api/destinations`, {LieuD:data.destination}  , {
+      axios.post(`https://laravel-deploy-test-three.vercel.app/api/api/destinations`, {LieuD:data.destination}  , {
         headers: {
             'Content-Type': 'application/json',
         },
@@ -207,7 +207,7 @@ const Modification = () => {
 
     const handleConfirmSubmitProvenance = () => {
       setConfirmProvenance(false)
-      axios.post(`http://localhost:8000/api/provenances`, {LieuP: data.provenance }, {
+      axios.post(`https://laravel-deploy-test-three.vercel.app/api/api/provenances`, {LieuP: data.provenance }, {
         headers: {
             'Content-Type': 'application/json',
         },

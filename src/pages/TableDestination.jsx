@@ -57,7 +57,7 @@ function TableDestination({destinations,triggerUpdate}) {
 
     const handleConfirmDeleteDestination = (idD) => {
       handleHideConfirmDestination(idD)
-      axios.delete(`http://localhost:8000/api/destinations/${idD}`)
+      axios.delete(`https://laravel-deploy-test-three.vercel.app/api/api/destinations/${idD}`)
         .then(res => {
           setSuccess(true)
           console.log(res.data)

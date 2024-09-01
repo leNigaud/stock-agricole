@@ -56,7 +56,7 @@ const TableTypeConteneur = ({typeConteneurs,triggerUpdate}) => {
 
     const handleConfirmDeleteTypeConteneur = (idType) => {
         handleHideConfirmTypeConteneur(idType)
-        axios.delete(`http://localhost:8000/api/typeConteneurs/${idType}`)
+        axios.delete(`https://laravel-deploy-test-three.vercel.app/api/api/typeConteneurs/${idType}`)
           .then(res => {
             setSuccess(true)
             console.log(res.data)

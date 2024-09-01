@@ -54,7 +54,7 @@ function Carteuser({triggerUpdate,user}) {
         hideConfirm()
         console.log("id de l'user: "+id)
         const arrId = [{"id":id}]
-        axios.post(`http://localhost:8000/api/utilisateurDelete`, arrId, {
+        axios.post(`https://laravel-deploy-test-three.vercel.app/api/api/utilisateurDelete`, arrId, {
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -89,7 +89,7 @@ function Carteuser({triggerUpdate,user}) {
             <div className='d-flex flex-column justify-content-center' style={divcarte}>
                 {success && <Modalsuccess hideModalSuccessModif={hideModalSuccessModif}/>}
                 {modalerror && <Modalerror hideModalErrorModif={hideModalErrorModif}/>}
-                <div style={{textAlign:'center',width:'180px',height:'132px'}}><img src={"http://localhost:8000/api/" + user.photo} alt={user.name} style={imgStyle}/></div>
+                <div style={{textAlign:'center',width:'180px',height:'132px'}}><img src={"https://laravel-deploy-test-three.vercel.app/api/" + user.photo} alt={user.name} style={imgStyle}/></div>
                 <div style={{textAlign:'center',fontWeight:'bold'}} className='mb-3'>{user.name}</div>
                 
                 <div className='d-flex flex-row justify-content-between mb-4'>

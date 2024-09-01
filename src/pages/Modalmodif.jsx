@@ -19,7 +19,7 @@ function Modalmodif( { triggerUpdate, hideModif, categories, produit, moncontene
     const [selectedFile,setSelectedFile] = useState(null)
 
     useEffect(()=> {
-        axios.get("http://localhost:8000/api/produits/images/"+produit.photo, { responseType: 'blob' })
+        axios.get("https://laravel-deploy-test-three.vercel.app/api/api/produits/images/"+produit.photo, { responseType: 'blob' })
         .then(response => {
             const file = new File([response.data], produit.photo);
             setSelectedFile(file);
@@ -90,7 +90,7 @@ function Modalmodif( { triggerUpdate, hideModif, categories, produit, moncontene
         formData.append('unite', data.unite);
         formData.append('vie', data.vie);
     
-        axios.post(`http://localhost:8000/api/produits/${produit.idPro}`, formData, {
+        axios.post(`https://laravel-deploy-test-three.vercel.app/api/api/produits/${produit.idPro}`, formData, {
             headers: {
                 'Content-Type': 'multipart/form-data',
             },

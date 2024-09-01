@@ -31,7 +31,7 @@ const Utilisateur = () => {
     const [users,setUsers] = useState(null)
 
     useEffect(() => {
-        axios.get(`http://localhost:8000/api/utilisateurs`)
+        axios.get(`https://laravel-deploy-test-three.vercel.app/api/api/utilisateurs`)
             .then(res => {
                 console.log(res.data)
                 setData(res.data)

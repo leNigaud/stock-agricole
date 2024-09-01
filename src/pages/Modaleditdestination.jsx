@@ -28,7 +28,7 @@ function Modaleditdestination( {triggerUpdate, destination,handleHideEdit} ) {
 
     const handleOnSubmit = async (e) => {
         e.preventDefault()
-        axios.put(`http://localhost:8000/api/destinations/${destination.idD}`, data , {
+        axios.put(`https://laravel-deploy-test-three.vercel.app/api/api/destinations/${destination.idD}`, data , {
             headers: {
                 'Content-Type': 'application/json',
             },

@@ -48,7 +48,7 @@ const Login = () => {
     const handleOnSubmit = async (e) => {
         e.preventDefault();
     
-        axios.post(`http://localhost:8000/api/login`, data, {
+        axios.post(`https://laravel-deploy-test-three.vercel.app/api/api/login`, data, {
             headers: {
                 'Content-Type': 'application/json',
             },

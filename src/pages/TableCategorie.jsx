@@ -57,7 +57,7 @@ function TableCategorie({categories, triggerUpdate}) {
   
     const handleConfirmDeleteCategorie = (idCat) => {
       handleHideConfirmCategorie(idCat)
-      axios.delete(`http://localhost:8000/api/categories/${idCat}`)
+      axios.delete(`https://laravel-deploy-test-three.vercel.app/api/api/categories/${idCat}`)
         .then(res => {
           setSuccess(true)
           console.log(res.data)

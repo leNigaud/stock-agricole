@@ -57,7 +57,7 @@ function TableProvenance({provenances, triggerUpdate}) {
 
     const handleConfirmDeleteProvenance = (idP) => {
       handleHideConfirmProvenance(idP)
-      axios.delete(`http://localhost:8000/api/provenances/${idP}`)
+      axios.delete(`https://laravel-deploy-test-three.vercel.app/api/api/provenances/${idP}`)
         .then(res => {
           setSuccess(true)
           console.log(res.data)

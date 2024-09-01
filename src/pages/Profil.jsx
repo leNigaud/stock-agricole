@@ -61,7 +61,7 @@ const Profil = ({triggerUpdate}) => {
     }
 
     const handleOnClickOkConfirm=()=> {
-        axios.post(`http://localhost:8000/api/logout`, user, {
+        axios.post(`https://laravel-deploy-test-three.vercel.app/api/api/logout`, user, {
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -85,7 +85,7 @@ return (
 
         <div style={{ borderRadius: '50%', overflow: 'hidden' }}>
             <img 
-                src={"http://localhost:8000/api/" + user?.photo}  
+                src={"https://laravel-deploy-test-three.vercel.app/api/" + user?.photo}  
                 style={{ height: '35px', width: '35px', borderRadius: '50%' }} 
                 alt="profil"
             />

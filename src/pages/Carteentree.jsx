@@ -156,7 +156,7 @@ function Carteentree( {type, produit, conteneurs, contenance, setContenance, set
     return (
         <div ref={carteEntreeRef} className='d-flex flex-row justify-content-center align-items-center' style={divcarte}>
             <div style={{...mymargin,width:'100px',height:'100px'}} className='d-flex flex-row justify-content-center align-items-center'>
-                <img src={"http://localhost:8000/api/produits/images/"+produit.photo} alt={produit?.libelle} style={{ maxWidth: '100%', maxHeight: '100%'}}/>
+                <img src={"https://laravel-deploy-test-three.vercel.app/api/produits/images/"+produit.photo} alt={produit?.libelle} style={{ maxWidth: '100%', maxHeight: '100%'}}/>
             </div>
 
             <div style={mymargin}>

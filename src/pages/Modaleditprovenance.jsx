@@ -32,7 +32,7 @@ function Modaleditprovenance( {triggerUpdate, provenance,handleHideEdit} ) {
 
     const handleOnSubmit = async (e) => {
         e.preventDefault()
-        axios.put(`http://localhost:8000/api/provenances/${provenance.idP}`, data , {
+        axios.put(`https://laravel-deploy-test-three.vercel.app/api/api/provenances/${provenance.idP}`, data , {
             headers: {
                 'Content-Type': 'application/json',
             },

@@ -69,7 +69,7 @@ function TableConteneur({conteneurs, typeConteneurs, triggerUpdate}) {
 
     const handleConfirmDeleteConteneur = (idCont) => {
       handleHideConfirmConteneur(idCont)
-      axios.delete(`http://localhost:8000/api/conteneurs/${idCont}`)
+      axios.delete(`https://laravel-deploy-test-three.vercel.app/api/api/conteneurs/${idCont}`)
         .then(res => {
           setSuccess(true)
           console.log(res.data)

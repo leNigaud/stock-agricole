@@ -93,7 +93,7 @@ function Modalajout( {hideAjoutProduit, categories, conteneurs, triggerUpdate} )
     
     // const handleOnSubmit = async (e) => {
     //     e.preventDefault();
-    //     axios.post(`http://localhost:8000/api/recu`, data2, {
+    //     axios.post(`https://laravel-deploy-test-three.vercel.app/api/recu`, data2, {
     //             headers: {
     //                 'Content-Type': 'application/json',
     //             },
@@ -107,7 +107,7 @@ function Modalajout( {hideAjoutProduit, categories, conteneurs, triggerUpdate} )
 
     // const handleOnSubmit = async (e) => {
     //     e.preventDefault();
-    //     axios.post(`http://localhost:8000/api/recu`, data, {
+    //     axios.post(`https://laravel-deploy-test-three.vercel.app/api/recu`, data, {
     //             headers: {
     //                 'Content-Type': 'application/json',
     //             },
@@ -131,7 +131,7 @@ function Modalajout( {hideAjoutProduit, categories, conteneurs, triggerUpdate} )
         formData.append('unite', data.unite);
         formData.append('vie', data.vie);
     
-        axios.post(`http://localhost:8000/api/produits`, formData, {
+        axios.post(`https://laravel-deploy-test-three.vercel.app/api/api/produits`, formData, {
             headers: {
                 'Content-Type': 'multipart/form-data',
             },

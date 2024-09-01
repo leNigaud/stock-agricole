@@ -32,7 +32,7 @@ function Modaleditcategorie( {triggerUpdate,categorie,handleHideEdit} ) {
 
     const handleOnSubmit = async (e) => {
         e.preventDefault()
-        axios.put(`http://localhost:8000/api/categories/${categorie.idCat}`, data , {
+        axios.put(`https://laravel-deploy-test-three.vercel.app/api/api/categories/${categorie.idCat}`, data , {
             headers: {
                 'Content-Type': 'application/json',
             },

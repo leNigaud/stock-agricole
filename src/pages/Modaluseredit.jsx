@@ -25,7 +25,7 @@ function Modaluseredit({triggerUpdate,user,hideModifUser}) {
     
     
     useEffect(()=> {
-        axios.get("http://localhost:8000/api/"+user?.photo, { responseType: 'blob' })
+        axios.get("https://laravel-deploy-test-three.vercel.app/api/api/"+user?.photo, { responseType: 'blob' })
         .then(response => {
             const file = new File([response.data], user?.photo);
             setSelectedFile(file);
@@ -130,7 +130,7 @@ function Modaluseredit({triggerUpdate,user,hideModifUser}) {
             formData.append('privilege', data.privilege);
             formData.append('password', data.password);
         
-            axios.post(`http://localhost:8000/api/utilisateur`, formData, {
+            axios.post(`https://laravel-deploy-test-three.vercel.app/api/api/utilisateur`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },

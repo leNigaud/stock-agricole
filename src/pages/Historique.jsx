@@ -41,7 +41,7 @@ const Historique = () => {
 
     //récuperer les données
     useEffect(() => {
-        axios.get(`http://localhost:8000/api/historiques`)
+        axios.get(`https://laravel-deploy-test-three.vercel.app/api/api/historiques`)
             .then(res => {
                 console.log(res.data)
                 setData(res.data)
