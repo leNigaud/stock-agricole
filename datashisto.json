@@ -1,0 +1,276 @@
+{
+    "categories": [
+        {
+            "idCat": 1,
+            "nom": "Fruit",
+            "created_at": "2024-04-10T11:45:38.000000Z"
+        },
+        {
+            "idCat": 2,
+            "nom": "Agrume",
+            "created_at": "2024-04-10T11:45:38.000000Z"
+        },
+        {
+            "idCat": 3,
+            "nom": "Legume",
+            "created_at": "2024-04-10T11:45:38.000000Z"
+        }
+    ],
+    "destinations": [
+        {
+            "idD": 1,
+            "LieuD": "JB Antsirabe"
+        },
+        {
+            "idD": 2,
+            "LieuD": "Agriman Ambositra"
+        },
+        {
+            "idD": 3,
+            "LieuD": "Agriman Fianarantsoa"
+        }
+    ],
+    "typeConteneurs": [
+        {
+            "idType": 1,
+            "nom": "Congelateur",
+            "created_at": "2024-04-10T11:47:47.000000Z"
+        },
+        {
+            "idType": 2,
+            "nom": "Refrigerateur",
+            "created_at": "2024-04-10T11:47:47.000000Z"
+        },
+        {
+            "idType": 3,
+            "nom": "Box",
+            "created_at": "2024-04-10T11:47:47.000000Z"
+        }
+    ],
+    "provenances": [
+        {
+            "idP": 1,
+            "LieuP": "Manjakandriana"
+        },
+        {
+            "idP": 2,
+            "LieuP": "Ambalavao"
+        },
+        {
+            "idP": 3,
+            "LieuP": "Ambohimahasoa"
+        },
+        {
+            "idP": 4,
+            "LieuP": "Arivonimamo"
+        }
+    ],
+    "conteneurs": [
+        {
+            "idCont": 1,
+            "nom": "C1",
+            "capacite": 15,
+            "type": 1,
+            "created_at": "2024-04-10T11:50:27.000000Z"
+        },
+        {
+            "idCont": 2,
+            "nom": "C2",
+            "capacite": 30,
+            "type": 1,
+            "created_at": "2024-04-10T11:50:27.000000Z"
+        },
+        {
+            "idCont": 3,
+            "nom": "C3",
+            "capacite": 20,
+            "type": 1,
+            "created_at": "2024-04-10T11:50:27.000000Z"
+        },
+        {
+            "idCont": 4,
+            "nom": "C4",
+            "capacite": 20,
+            "type": 1,
+            "created_at": "2024-04-10T11:50:27.000000Z"
+        },
+        {
+            "idCont": 5,
+            "nom": "R1",
+            "capacite": 15,
+            "type": 2,
+            "created_at": "2024-04-10T11:50:27.000000Z"
+        },
+        {
+            "idCont": 6,
+            "nom": "R2",
+            "capacite": 30,
+            "type": 2,
+            "created_at": "2024-04-10T11:50:27.000000Z"
+        },
+        {
+            "idCont": 7,
+            "nom": "R3",
+            "capacite": 20,
+            "type": 2,
+            "created_at": "2024-04-10T11:50:27.000000Z"
+        },
+        {
+            "idCont": 8,
+            "nom": "R4",
+            "capacite": 20,
+            "type": 2,
+            "created_at": "2024-04-10T11:50:27.000000Z"
+        },
+        {
+            "idCont": 9,
+            "nom": "B1",
+            "capacite": 15,
+            "type": 3,
+            "created_at": "2024-04-10T11:50:27.000000Z"
+        },
+        {
+            "idCont": 10,
+            "nom": "B2",
+            "capacite": 30,
+            "type": 3,
+            "created_at": "2024-04-10T11:50:27.000000Z"
+        },
+        {
+            "idCont": 11,
+            "nom": "B3",
+            "capacite": 20,
+            "type": 3,
+            "created_at": "2024-04-10T11:50:27.000000Z"
+        },
+        {
+            "idCont": 12,
+            "nom": "B4",
+            "capacite": 20,
+            "type": 3,
+            "created_at": "2024-04-10T11:50:27.000000Z"
+        }
+    ],
+    "historiques": [
+        {
+            "idH": 18,
+            "type": "S",
+            "Produit": "Tomate",
+            "Categorie": "Agrume",
+            "unite": 4,
+            "quantite": 56,
+            "conteneur": "5",
+            "user": "Prof. Meagan Hayes Jr.",
+            "Lieu": "3",
+            "created_at": "1970-04-24 03:24:03"
+        },
+        {
+            "idH": 40,
+            "type": "S",
+            "Produit": "Banane",
+            "Categorie": "Fruit",
+            "unite": 19,
+            "quantite": 152,
+            "conteneur": "6",
+            "user": "Vladimir Reynolds DVM",
+            "Lieu": "3",
+            "created_at": "1970-07-06 02:21:58"
+        },
+        {
+            "idH": 26,
+            "type": "S",
+            "Produit": "Poire",
+            "Categorie": "Fruit",
+            "unite": 9,
+            "quantite": 63,
+            "conteneur": "8",
+            "user": "Dr. Mateo Hoppe",
+            "Lieu": "1",
+            "created_at": "1970-08-16 03:54:05"
+        },
+        {
+            "idH": 77,
+            "type": "S",
+            "Produit": "Citron",
+            "Categorie": "Agrume",
+            "unite": 20,
+            "quantite": 180,
+            "conteneur": "0",
+            "user": "Adella Bernier",
+            "Lieu": "1",
+            "created_at": "1970-12-05 22:25:20"
+        },
+        {
+            "idH": 12,
+            "type": "S",
+            "Produit": "Citron",
+            "Categorie": "Agrume",
+            "unite": 7,
+            "quantite": 63,
+            "conteneur": "6",
+            "user": "Eloise Streich",
+            "Lieu": "3",
+            "created_at": "1972-04-07 11:54:19"
+        },
+        {
+            "idH": 41,
+            "type": "S",
+            "Produit": "Ananas",
+            "Categorie": "Fruit",
+            "unite": 8,
+            "quantite": 128,
+            "conteneur": "3",
+            "user": "Marley Bogan Jr.",
+            "Lieu": "2",
+            "created_at": "1972-06-23 02:03:56"
+        },
+        {
+            "idH": 57,
+            "type": "S",
+            "Produit": "Orange",
+            "Categorie": "Fruit",
+            "unite": 8,
+            "quantite": 128,
+            "conteneur": "0",
+            "user": "Lizzie Kihn",
+            "Lieu": "3",
+            "created_at": "1972-10-23 17:48:40"
+        },
+        {
+            "idH": 55,
+            "type": "S",
+            "Produit": "Banane",
+            "Categorie": "Fruit",
+            "unite": 13,
+            "quantite": 104,
+            "conteneur": "7",
+            "user": "Darryl Padberg",
+            "Lieu": "3",
+            "created_at": "1973-11-11 18:09:06"
+        },
+        {
+            "idH": 60,
+            "type": "S",
+            "Produit": "Mandarine",
+            "Categorie": "Legume",
+            "unite": 8,
+            "quantite": 56,
+            "conteneur": "2",
+            "user": "Eddie Nolan",
+            "Lieu": "2",
+            "created_at": "1973-12-08 03:34:36"
+        },
+        {
+            "idH": 99,
+            "type": "S",
+            "Produit": "Carotte",
+            "Categorie": "Agrume",
+            "unite": 11,
+            "quantite": 99,
+            "conteneur": "5",
+            "user": "Janice Moen",
+            "Lieu": "3",
+            "created_at": "1974-07-10 05:36:48"
+        }
+    ]
+}

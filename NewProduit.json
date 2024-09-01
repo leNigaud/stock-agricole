@@ -1,0 +1,381 @@
+{
+  "produits": [
+    {
+      "idPro": 1,
+      "libelle": "Banane",
+      "photo": "XiXJ9o01cMUZQK1HTA3ipJlWX4pGlBvBYuaiEkL3.jpg",
+      "unite": 15,
+      "vie": 5,
+      "qte": 75,
+      "idCat": 2,
+      "idTypeCont": 1,
+      "created_at": "2024-04-24T14:22:20.000000Z"
+    },
+    {
+      "idPro": 2,
+      "libelle": "Cerise",
+      "photo": "AiJoC5TcipSw7LodMNBiQguE6i3R3KRKM10r0hMP.jpg",
+      "unite": 30,
+      "vie": 15,
+      "qte": 30,
+      "idCat": 2,
+      "idTypeCont": 1,
+      "created_at": "2024-04-24T11:26:39.000000Z"
+    },
+    {
+      "idPro": 3,
+      "libelle": "Grenadine",
+      "photo": "LZPeltS3sJ8JCFxErdB5IiZpuBrEwmDrYTJI5eI5.jpg",
+      "unite": 10,
+      "vie": 30,
+      "qte": 20,
+      "idCat": 2,
+      "idTypeCont": 1,
+      "created_at": "2024-04-24T11:27:31.000000Z"
+    },
+    {
+      "idPro": 4,
+      "libelle": "Poivre",
+      "photo": "iZ33AqWMmnQLeYfEe8zefYXNTCs7RE8SFTwr9dvi.png",
+      "unite": 150,
+      "vie": 150,
+      "qte": 300,
+      "idCat": 1,
+      "idTypeCont": 4,
+      "created_at": "2024-04-24T11:31:17.000000Z"
+    },
+    {
+      "idPro": 5,
+      "libelle": "Girofle",
+      "photo": "QRkDoEtFIKtL5WZOwQN0goks06PNhz5SJnbWhYlc.jpg",
+      "unite": 250,
+      "vie": 125,
+      "qte": 500,
+      "idCat": 1,
+      "idTypeCont": 4,
+      "created_at": "2024-04-24T11:32:58.000000Z"
+    },
+    {
+      "idPro": 6,
+      "libelle": "Pêche",
+      "photo": "G63ezoXK6bR70qz0gKw5jbkbFGy1h7KILNFxgsOK.jpg",
+      "unite": 250,
+      "vie": 25,
+      "qte": 500,
+      "idCat": 2,
+      "idTypeCont": 1,
+      "created_at": "2024-04-24T11:34:55.000000Z"
+    },
+    {
+      "idPro": 7,
+      "libelle": "Riz",
+      "photo": "kVP9lxJuDNSCvqvW3l3BgP7G2TuEJdz4N8VTnQsR.jpg",
+      "unite": 150,
+      "vie": 365,
+      "qte": 300,
+      "idCat": 5,
+      "idTypeCont": 4,
+      "created_at": "2024-04-24T11:39:47.000000Z"
+    },
+    {
+      "idPro": 8,
+      "libelle": "Raisin",
+      "photo": "jGuv6V2j5CyHUGkJH6TEe0ZHKWedxRuOjMYTADZ0.jpg",
+      "unite": 25,
+      "vie": 20,
+      "qte": 50,
+      "idCat": 2,
+      "idTypeCont": 1,
+      "created_at": "2024-04-24T11:40:33.000000Z"
+    },
+    {
+      "idPro": 9,
+      "libelle": "Maïs",
+      "photo": "MxMuK3xT7AJjo9LETd1u5ZJ424d1VRux0ci9Upne.jpg",
+      "unite": 150,
+      "vie": 365,
+      "qte": 0,
+      "idCat": 5,
+      "idTypeCont": 1,
+      "created_at": "2024-04-24T11:42:08.000000Z"
+    },
+    {
+      "idPro": 10,
+      "libelle": "Lait",
+      "photo": "wB2lxIx615N2DddjGJTq4G7n5jumO9ZsbmI2qlPD.jpg",
+      "unite": 15,
+      "vie": 3,
+      "qte": 1080,
+      "idCat": 4,
+      "idTypeCont": 3,
+      "created_at": "2024-04-24T11:45:14.000000Z"
+    },
+    {
+      "idPro": 11,
+      "libelle": "Tomate",
+      "photo": "ua4w6l0d5MJRDo03nmZ8X8yPCkKnVlBUCCrs1P7Q.jpg",
+      "unite": 100,
+      "vie": 12,
+      "qte": 500,
+      "idCat": 1,
+      "idTypeCont": 1,
+      "created_at": "2024-04-25T13:23:54.000000Z"
+    },
+    {
+      "idPro": 12,
+      "libelle": "2222",
+      "photo": "h1OrlRqDhAi9wyh054Kz642q5vZHmQMi0rCVziTN.png",
+      "unite": 2222,
+      "vie": 2222,
+      "qte": 11110,
+      "idCat": 2,
+      "idTypeCont": 1,
+      "created_at": "2024-05-11T07:10:15.000000Z"
+    },
+    {
+      "idPro": 13,
+      "libelle": "yyyyy",
+      "photo": "ErM6TLQFtnNVdQStficlTd4iI3U5n6b5Rqiq03oN.jpg",
+      "unite": 3333,
+      "vie": 2000,
+      "qte": 6666,
+      "idCat": 2,
+      "idTypeCont": 1,
+      "created_at": "2024-05-12T08:02:19.000000Z"
+    }
+  ],
+  "provenances": [
+    {
+      "idP": 1,
+      "LieuP": "ICS"
+    },
+    {
+      "idP": 2,
+      "LieuP": "AMBATONDRAZAKA"
+    },
+    {
+      "idP": 3,
+      "LieuP": "SAMBAVA"
+    },
+    {
+      "idP": 4,
+      "LieuP": "TOLIARA"
+    }
+  ],
+  "categories": [
+    {
+      "idCat": 1,
+      "nom": "Epices",
+      "created_at": "2024-04-24T14:19:49.000000Z",
+      "updated_at": "2024-04-24T14:19:49.000000Z"
+    },
+    {
+      "idCat": 2,
+      "nom": "Fruits & légumes",
+      "created_at": "2024-04-24T14:19:49.000000Z",
+      "updated_at": "2024-04-24T14:19:49.000000Z"
+    },
+    {
+      "idCat": 3,
+      "nom": "Huiles essentielles",
+      "created_at": "2024-04-24T14:19:49.000000Z",
+      "updated_at": "2024-04-24T14:19:49.000000Z"
+    },
+    {
+      "idCat": 4,
+      "nom": "Produits laitiers",
+      "created_at": "2024-04-24T14:19:49.000000Z",
+      "updated_at": "2024-04-24T14:19:49.000000Z"
+    },
+    {
+      "idCat": 5,
+      "nom": "Céréales",
+      "created_at": "2024-04-24T11:38:19.000000Z",
+      "updated_at": "2024-04-24T11:38:19.000000Z"
+    }
+  ],
+  "conteneurs": [
+    {
+      "idType": 1,
+      "nom": "Réfrigérateur",
+      "created_at": "2024-04-01T09:13:15.000000Z",
+      "updated_at": "2024-04-17T16:42:42.000000Z"
+    },
+    {
+      "idType": 2,
+      "nom": "Congélateur",
+      "created_at": "2024-04-01T09:13:15.000000Z",
+      "updated_at": "2024-04-17T16:42:42.000000Z"
+    },
+    {
+      "idType": 3,
+      "nom": "Chambre Froide",
+      "created_at": "2024-04-01T09:13:15.000000Z",
+      "updated_at": "2024-04-17T16:42:42.000000Z"
+    },
+    {
+      "idType": 4,
+      "nom": "Chambre de stockage",
+      "created_at": "2024-04-01T09:37:06.000000Z",
+      "updated_at": "2024-04-17T16:42:42.000000Z"
+    }
+  ],
+  "stockages": [
+    {
+      "libelle": "yyyyy",
+      "stocks": {
+        "date_per": "2024-05-12 11:50:48",
+        "date_arrivee": "2024-05-12 11:50:48",
+        "unite": 50,
+        "avarie_dans": "avarie dans",
+        "qte": 1,
+        "conteneur": "R1",
+        "provenance": "ICS"
+      }
+    },
+    {
+      "libelle": "2222",
+      "stocks": {
+        "date_per": "2024-05-12 11:51:04",
+        "date_arrivee": "2024-05-12 11:51:04",
+        "unite": 50,
+        "avarie_dans": "avarie dans",
+        "qte": 4,
+        "conteneur": "R1",
+        "provenance": "ICS"
+      }
+    },
+    {
+      "libelle": "Cerise",
+      "stocks": {
+        "date_per": "2024-05-12 11:52:15",
+        "date_arrivee": "2024-05-12 11:52:15",
+        "unite": 50,
+        "avarie_dans": "avarie dans",
+        "qte": 0,
+        "conteneur": "R2",
+        "provenance": "ICS"
+      }
+    },
+    {
+      "libelle": "Grenadine",
+      "stocks": {
+        "date_per": "2024-05-12 11:52:15",
+        "date_arrivee": "2024-05-12 11:52:15",
+        "unite": 50,
+        "avarie_dans": "avarie dans",
+        "qte": 1,
+        "conteneur": "R2",
+        "provenance": "ICS"
+      }
+    },
+    {
+      "libelle": "Pêche",
+      "stocks": {
+        "date_per": "2024-05-12 11:52:15",
+        "date_arrivee": "2024-05-12 11:52:15",
+        "unite": 50,
+        "avarie_dans": "avarie dans",
+        "qte": 1,
+        "conteneur": "R3",
+        "provenance": "ICS"
+      }
+    },
+    {
+      "libelle": "Raisin",
+      "stocks": {
+        "date_per": "2024-05-12 11:52:16",
+        "date_arrivee": "2024-05-12 11:52:16",
+        "unite": 50,
+        "avarie_dans": "avarie dans",
+        "qte": 1,
+        "conteneur": "R3",
+        "provenance": "ICS"
+      }
+    },
+    {
+      "libelle": "Tomate",
+      "stocks": {
+        "date_per": "2024-05-12 11:52:16",
+        "date_arrivee": "2024-05-12 11:52:16",
+        "unite": 50,
+        "avarie_dans": "avarie dans",
+        "qte": 4,
+        "conteneur": "R4",
+        "provenance": "ICS"
+      }
+    },
+    {
+      "libelle": "Lait",
+      "stocks": {
+        "date_per": "2024-05-12 11:52:16",
+        "date_arrivee": "2024-05-12 11:52:16",
+        "unite": 50,
+        "avarie_dans": "avarie dans",
+        "qte": 71,
+        "conteneur": "CF1",
+        "provenance": "ICS"
+      }
+    },
+    {
+      "libelle": "Poivre",
+      "stocks": {
+        "date_per": "2024-05-12 11:52:16",
+        "date_arrivee": "2024-05-12 11:52:16",
+        "unite": 50,
+        "avarie_dans": "avarie dans",
+        "qte": 1,
+        "conteneur": "CS1",
+        "provenance": "ICS"
+      }
+    },
+    {
+      "libelle": "Girofle",
+      "stocks": {
+        "date_per": "2024-05-12 11:52:16",
+        "date_arrivee": "2024-05-12 11:52:16",
+        "unite": 50,
+        "avarie_dans": "avarie dans",
+        "qte": 1,
+        "conteneur": "CS1",
+        "provenance": "ICS"
+      }
+    },
+    {
+      "libelle": "Riz",
+      "stocks": {
+        "date_per": "2024-05-12 11:52:16",
+        "date_arrivee": "2024-05-12 11:52:16",
+        "unite": 50,
+        "avarie_dans": "avarie dans",
+        "qte": 1,
+        "conteneur": "CS1",
+        "provenance": "ICS"
+      }
+    },
+    {
+      "libelle": "Banane",
+      "stocks": {
+        "date_per": "2024-05-12 19:45:29",
+        "date_arrivee": "2024-05-12 19:45:29",
+        "unite": 50,
+        "avarie_dans": "avarie dans",
+        "qte": 2,
+        "conteneur": "R1",
+        "provenance": "ICS"
+      }
+    },
+    {
+      "libelle": "Banane",
+      "stocks": {
+        "date_per": "2024-05-12 19:45:29",
+        "date_arrivee": "2024-05-12 19:45:29",
+        "unite": 50,
+        "avarie_dans": "avarie dans",
+        "qte": 1,
+        "conteneur": "R2",
+        "provenance": "ICS"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+
+{
+  "produit": {
+      "libelle": "Poivre",
+      "enStock": true,
+      "qte": 1,
+      "unite": 450,
+      "vie": 150,
+      "conteneur": "Chambre de stockage"
+  },
+  "stocks": [
+      {
+          "date_per": "2024-04-30",
+          "date_arrivee": "2023-12-02 12:00:00",
+          "unite": 450,
+          "avarie_dans": 19, 
+          "qte": 1,
+          "conteneur": "Chambre de stockage",
+          "provenance": "Antsirabe"
+      }
+  ]
+}
+
+// Autre produit déjà périmé
+{
+  "produit": {
+      "libelle": "Banane",
+      "enStock": true,
+      "qte": 3,
+      "unite": 80,
+      "vie": 3,
+      "conteneur": "Réfrigérateur"
+  },
+  "stocks": [
+      {
+          "date_per": "2022-05-31",
+          "date_arrivee": "2022-05-28 00:00:00",
+          "unite": 80,
+          "avarie_dans": "périmé",
+          "qte": 3,
+          "conteneur": "Réfrigérateur",
+          "provenance": "Antsirabe"
+      },
+      {
+          "date_per": "2022-05-31",
+          "date_arrivee": "2022-05-28 00:00:00",
+          "unite": 80,
+          "avarie_dans": "périmé",
+          "qte": 3,
+          "conteneur": "Réfrigérateur",
+          "provenance": "Antsirabe"
+      }
+  ]
+}

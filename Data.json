@@ -1,0 +1,308 @@
+{
+    "produits": [
+      {
+        "idPro": 1,
+        "libelle": "Fraise",
+        "photo": "imagefraise.png",
+        "unite": 150,
+        "vie": 10,
+        "qte": 0,
+        "idCat": 3,
+        "idTypeCont": 1,
+        "created_at": "2024-04-01T10:02:01.000000Z",
+        "id": 1
+      },
+      {
+        "idPro": 2,
+        "libelle": "Carotte",
+        "photo": "carotte.jpg",
+        "unite": 150,
+        "vie": 90,
+        "qte": 450,
+        "idCat": 3,
+        "idTypeCont": 1,
+        "created_at": "2024-04-01T10:02:01.000000Z",
+        "id": 2
+      },
+      {
+        "idPro": 3,
+        "libelle": "Vanille",
+        "photo": "vanille.jpg",
+        "unite": 80,
+        "vie": 650,
+        "qte": 1600,
+        "idCat": 1,
+        "idTypeCont": 4,
+        "created_at": "2024-04-01T10:02:01.000000Z",
+        "id": 3
+      },
+      {
+        "idPro": 4,
+        "libelle": "Poivre",
+        "photo": "poivre.jpg",
+        "unite": 450,
+        "vie": 150,
+        "qte": 450,
+        "idCat": 1,
+        "idTypeCont": 4,
+        "created_at": "2024-04-01T10:02:01.000000Z",
+        "id": 4
+      },
+      {
+        "idPro": 5,
+        "libelle": "Café",
+        "photo": "café.jpg",
+        "unite": 250,
+        "vie": 325,
+        "qte": 250,
+        "idCat": 1,
+        "idTypeCont": 4,
+        "created_at": "2024-04-01T10:02:01.000000Z",
+        "id": 5
+      },
+      {
+        "idPro": 6,
+        "libelle": "Cacao",
+        "photo": "cacao.jpg",
+        "unite": 50,
+        "vie": 365,
+        "qte": 350,
+        "idCat": 1,
+        "idTypeCont": 4,
+        "created_at": "2024-04-01T10:02:01.000000Z",
+        "id": 5
+      },
+      {
+        "idPro": 7,
+        "libelle": "Banane",
+        "photo": "banane.jpg",
+        "unite": 45,
+        "vie": 10,
+        "qte": 90,
+        "idCat": 3,
+        "idTypeCont": 1,
+        "created_at": "2024-04-01T10:02:01.000000Z",
+        "id": 5
+      }
+    ],
+    "provenances": [
+      {
+        "id": 1,
+        "nom": "Toamasina"
+      },
+      {
+        "id": 2,
+        "nom": "Mahajanga"
+      },
+      {
+        "id": 3,
+        "nom": "Antananarivo"
+      },
+      {
+        "id": 4,
+        "nom": "Antsiranana"
+      },
+      {
+        "id": 5,
+        "nom": "Antsirabe"
+      }
+    ],
+    "conteneurs": [
+        {
+            "idType": 1,
+            "nom":"Réfrigérateur"
+        },
+        {
+            "idType": 2,
+            "nom":"Frigidaire"
+        },
+        {
+            "idType": 3,
+            "nom":"Chambre froide"
+        },
+        {
+            "idType": 4,
+            "nom":"Entrepôt"
+        }
+    ], 
+    "categories": [
+        {
+            "idCat": 1,
+            "nom": "Fruits"
+        },
+        {
+            "idCat": 2,
+            "nom": "Agrumes"
+        },
+        {
+            "idCat": 3,
+            "nom": "Cacao"
+        }
+    ],
+
+    "stockages": [ 
+        {
+          "libelle":"Fraise",
+          "stocks": [
+            {
+                "date_per": "2022-05-31",
+                "date_arrivee": "2022-05-28 00:00:00",
+                "unite": 80,
+                "avarie_dans": "périmé",
+                "qte": 3,
+                "conteneur": "Réfrigérateur",
+                "provenance": "Toamasina"
+            },
+            {
+                "date_per": "2022-05-31",
+                "date_arrivee": "2022-05-28 00:00:00",
+                "unite": 80,
+                "avarie_dans": "périmé",
+                "qte": 3,
+                "conteneur": "Réfrigérateur",
+                "provenance": "Mahajanga"
+            }
+          ]
+        },
+      
+      
+      {
+        "libelle":"Carotte",
+        "stocks": [
+          {
+              "date_per": "2022-05-31",
+              "date_arrivee": "2022-05-28 00:00:00",
+              "unite": 80,
+              "avarie_dans": "périmé",
+              "qte": 3,
+              "conteneur": "Réfrigérateur",
+              "provenance": "Toamasina"
+          },
+          {
+              "date_per": "2022-05-31",
+              "date_arrivee": "2022-05-28 00:00:00",
+              "unite": 80,
+              "avarie_dans": "périmé",
+              "qte": 3,
+              "conteneur": "Réfrigérateur",
+              "provenance": "Mahajanga"
+          }
+        ]
+      },
+      {
+        "libelle":"Vanille",
+        "stocks": [
+          {
+              "date_per": "2022-05-31",
+              "date_arrivee": "2022-05-28 00:00:00",
+              "unite": 80,
+              "avarie_dans": "périmé",
+              "qte": 3,
+              "conteneur": "Réfrigérateur",
+              "provenance": "Antsirabe"
+          },
+          {
+              "date_per": "2022-05-31",
+              "date_arrivee": "2022-05-28 00:00:00",
+              "unite": 80,
+              "avarie_dans": "périmé",
+              "qte": 3,
+              "conteneur": "Réfrigérateur",
+              "provenance": "Antsirabe"
+          }
+        ]
+      },
+      {
+        "libelle":"Poivre",
+        "stocks": [
+          {
+              "date_per": "2022-05-31",
+              "date_arrivee": "2022-05-28 00:00:00",
+              "unite": 80,
+              "avarie_dans": "périmé",
+              "qte": 3,
+              "conteneur": "Réfrigérateur",
+              "provenance": "Antsirabe"
+          },
+          {
+              "date_per": "2022-05-31",
+              "date_arrivee": "2022-05-28 00:00:00",
+              "unite": 80,
+              "avarie_dans": "périmé",
+              "qte": 3,
+              "conteneur": "Réfrigérateur",
+              "provenance": "Antsirabe"
+          }
+        ]
+      },
+      {
+        "libelle":"Café",
+        "stocks": [
+          {
+              "date_per": "2022-05-31",
+              "date_arrivee": "2022-05-28 00:00:00",
+              "unite": 80,
+              "avarie_dans": "périmé",
+              "qte": 3,
+              "conteneur": "Réfrigérateur",
+              "provenance": "Antsirabe"
+          },
+          {
+              "date_per": "2022-05-31",
+              "date_arrivee": "2022-05-28 00:00:00",
+              "unite": 80,
+              "avarie_dans": "périmé",
+              "qte": 3,
+              "conteneur": "Réfrigérateur",
+              "provenance": "Antsirabe"
+          }
+        ]
+      },
+      {
+        "libelle":"Cacao",
+        "stocks": [
+          {
+              "date_per": "2022-05-31",
+              "date_arrivee": "2022-05-28 00:00:00",
+              "unite": 80,
+              "avarie_dans": "périmé",
+              "qte": 3,
+              "conteneur": "Réfrigérateur",
+              "provenance": "Antsirabe"
+          },
+          {
+              "date_per": "2022-05-31",
+              "date_arrivee": "2022-05-28 00:00:00",
+              "unite": 80,
+              "avarie_dans": "périmé",
+              "qte": 3,
+              "conteneur": "Réfrigérateur",
+              "provenance": "Antsirabe"
+          }
+        ]
+      },
+      {
+        "libelle":"Banane",
+        "stocks": [
+          {
+              "date_per": "2022-05-31",
+              "date_arrivee": "2022-05-28 00:00:00",
+              "unite": 80,
+              "avarie_dans": "périmé",
+              "qte": 3,
+              "conteneur": "Réfrigérateur",
+              "provenance": "Antsirabe"
+          },
+          {
+              "date_per": "2022-05-31",
+              "date_arrivee": "2022-05-28 00:00:00",
+              "unite": 80,
+              "avarie_dans": "périmé",
+              "qte": 3,
+              "conteneur": "Réfrigérateur",
+              "provenance": "Antsirabe"
+          }
+        ]
+      }
+    ]
+  }
